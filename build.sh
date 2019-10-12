@@ -4,7 +4,7 @@
   native-image --no-server \
     --no-fallback \
     --initialize-at-build-time=org.apache.http,org.apache.commons.logging,org.apache.commons.codec \
-    --enable-http --enable-https --enable-url-protocols=http,https --enable-all-security-services \
+    --enable-https --enable-url-protocols=https --enable-all-security-services \
      --report-unsupported-elements-at-runtime \
          --rerun-class-initialization-at-runtime=org.bouncycastle.crypto.prng.SP800SecureRandom \
       --rerun-class-initialization-at-runtime=org.bouncycastle.jcajce.provider.drbg.DRBG$Default \
