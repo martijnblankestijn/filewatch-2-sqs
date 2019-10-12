@@ -1,0 +1,14 @@
+{
+  "resources":[
+    {"pattern":"com/amazonaws/internal/config/awssdk_config_default.json"}, 
+    {"pattern":"com/amazonaws/partitions/endpoints.json"}, 
+    {"pattern":"com/amazonaws/sdk/versionInfo.properties"}, 
+    {"pattern":"com/amazonaws/services/sqs/request.handlers"}, 
+    {"pattern":"mozilla/public-suffix-list.txt"}, 
+    {"pattern":"org/apache/http/client/version.properties"}, 
+    {"pattern":"org/joda/time/tz/data/Europe/Amsterdam"}, 
+    {"pattern":"org/joda/time/tz/data/ZoneInfoMap"}, 
+    {"pattern":"sun/net/idn/uidna.spp"}, 
+    {"pattern":"sun/text/resources/unorm.icu"}
+  ]
+}

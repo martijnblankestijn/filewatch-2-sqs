@@ -1,0 +1,133 @@
+[
+  {
+    "name":"com.sun.xml.internal.stream.XMLInputFactoryImpl",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+{
+  "name":"com.amazonaws.auth.AWS4Signer",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.amazonaws.internal.config.Builder",
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.amazonaws.internal.config.HostRegexToRegionMappingJsonHelper",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.amazonaws.internal.config.HttpClientConfigJsonHelper",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.amazonaws.internal.config.InternalConfigJsonHelper",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.amazonaws.internal.config.JsonIndex",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.amazonaws.internal.config.SignerConfigJsonHelper",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.amazonaws.jmx.SdkMBeanRegistrySupport",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.amazonaws.partitions.model.CredentialScope",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.amazonaws.partitions.model.Endpoint",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.amazonaws.partitions.model.Partition",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.amazonaws.partitions.model.Partitions",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.amazonaws.partitions.model.Region",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.amazonaws.partitions.model.Service",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.amazonaws.services.sqs.MessageMD5ChecksumHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.amazonaws.services.sqs.QueueUrlHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.amazonaws.services.sqs.internal.SQSRequestHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.String"
+},
+{
+  "name":"java.util.ArrayList",
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"java.util.HashSet",
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"java.util.LinkedHashMap",
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"kotlin.KotlinVersion",
+  "fields":[{"name":"CURRENT"}]
+},
+{
+  "name":"org.apache.commons.logging.LogFactory"
+},
+{
+  "name":"org.apache.commons.logging.impl.Jdk14Logger",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"org.apache.commons.logging.impl.LogFactoryImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.commons.logging.impl.WeakHashtable",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+}
+]
