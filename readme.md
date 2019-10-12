@@ -16,7 +16,10 @@ use the following to capture all the reflection magic that is being used in the 
 This will capture all configuration detected in the directory native-config.
 This configuration (jni-config.json, proxy-config.json, reflect-config.json and resource-config.json) is already stored in `src/main/resources/` under `META-INF/native-image`.
 
-## Configuration and creation of the Graal native image
+## Configuration and creation of the Graal native image with Gradle
+Execute `./gradlew nativeImage`.
+
+## Configuration and creation of the Graal native image with scripts
 Next to the configuration mentioned above, 
 the`native-image.properties` configures how the native-image will be compiled.
 
@@ -26,7 +29,7 @@ export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 export PATH=$JAVA_HOME/bin:$PATH
 ```
 
-The `build.sh` contains building the jar file (with gradle) and the creation of the native image 
+The `build.sh` contains building the jar file (with gradle) and the creation of the native image
 
 ## Running the sample
 
