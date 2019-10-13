@@ -12,17 +12,9 @@ jobs:
             # fallback to using the latest cache if no exact match is found
             - v2-dependencies-
       - run:
-          name: Prepare build
-          command: ./gradlew resolveConfigurations
-      - save_cache:
-          paths:
-            - ~/.gradle
-          key: v2-dependencies-{{ checksum "build.gradle.kts" }}
-      - run:
           name: Build application
           command:  ./gradlew --no-daemon clean nativeImage
       - save_cache:
           paths:
             - ~/.gradle
-            - ~/repo/
-          key: v2-buildResult-{{ .Environment.CIRCLE_WORKFLOW_ID }}
+          key: v2-dependencies-{{ checksum "build.gradle.kts" }}
